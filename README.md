@@ -93,7 +93,7 @@ loop:
 	bne loop
 
 wait:
-	jsr wait
+	jmp wait
 
 text:
 	!scr "              hello world               "
